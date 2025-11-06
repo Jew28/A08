@@ -40,8 +40,18 @@ header {
 }
 
 /* the styles for the main content */
-main {
-	clear: left;
+main 
+{
+	clear: left;0
+	display: flex;
+	flex-wrap: wrap;
+}
+
+aside {
+  flex-basis: 25%;
+}
+section {
+  flex-basis: 75%;
 }
 
 /* the styles for the footer */
@@ -54,4 +64,5 @@ footer {
 /* CSS class */
 .large {
 	font-size: 125%;
+
 }
