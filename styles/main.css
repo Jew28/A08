@@ -1,0 +1,111 @@
+/* custom property */
+:root {
+	--accent-color: #800000;  /* could also be coded #800 */
+}
+
+main {
+  display: flex;
+  gap: 1em;
+}
+aside {
+  flex-basis: 25%;
+}
+section {
+  flex-basis: 75%;
+}
+
+
+/* default styles */
+body {
+  width: 80%;
+  max-width: 1024px;
+  font-size: calc(90% + 0.2vw);
+  line-height: 1.5;
+  margin: auto;
+}
+a:hover, a:focus{
+	font-style: italic;
+	color: var(--accent-color);
+}
+h1 {
+	padding-top: 0.25em;
+  	padding-bottom: 0.25em;
+}
+h2 {
+	padding-top: 0.25em;
+  	padding-bottom: 0.25em;
+}
+h3 {
+	padding-top: 0.25em;
+  	padding-bottom: 0.25em;
+}
+
+/* the styles for the header */
+header {
+	& h2 {
+		font-size: 175%;
+		text-indent: 30px;
+	}
+	& h3 {
+		font-size: 130%;
+		font-style: italic;
+		text-indent: 30px;
+		line-height: 1.2;
+	}
+	& img {
+		float: left;
+	}
+}
+
+.featured {
+  border-top: 2px solid var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
+  padding: 1em 0;
+}
+section img {
+  float: right;
+  margin: 0 0 1em 1em;
+  max-width: 250px;
+  min-width: 100px;
+  width: 100%;
+}
+
+/* the styles for the footer */
+footer {
+	& p {
+		text-align: center;
+	}
+}
+
+.speaker h1 {
+  color: var(--accent-color);
+}
+.speaker h2 {
+  color: black;
+}
+.speaker p {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+img.logo {
+  min-width: 40px;
+  max-width: 80px;
+  width: 100%;
+}
+img.featured {
+  min-width: 100px;
+  max-width: 250px;
+  width: 100%;
+}
+img.guest {
+  min-width: 40px;
+  max-width: 75px;
+  width: 100%;
+}
+
+
+.large {
+	font-size: 125%;
+
+}
