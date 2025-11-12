@@ -3,6 +3,18 @@
 	--accent-color: #800000;  /* could also be coded #800 */
 }
 
+main {
+  display: flex;
+  gap: 1em;
+}
+aside {
+  flex-basis: 25%;
+}
+section {
+  flex-basis: 75%;
+}
+
+
 /* default styles */
 body {
   width: 80%;
@@ -107,9 +119,10 @@ img.guest {
   width: 100%;
 }
 
-/* CSS class */
+
 .large {
 	font-size: 125%;
 
 }
+
 
