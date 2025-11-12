@@ -57,21 +57,6 @@ header {
 	}
 }
 
-/* the styles for the main content */
-main 
-{
-	clear: left;0
-	display: flex;
-	flex-wrap: wrap;
-}
-
-aside {
-  flex-basis: 25%;
-}
-section {
-  flex-basis: 75%;
-}
-
 .featured {
   border-top: 2px solid var(--accent-color);
   border-bottom: 2px solid var(--accent-color);
@@ -124,5 +109,6 @@ img.guest {
 	font-size: 125%;
 
 }
+
 
 
